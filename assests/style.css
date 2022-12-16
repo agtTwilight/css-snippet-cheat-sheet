@@ -1,0 +1,61 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: whitesmoke;
+}
+
+body{
+        background-color: #3C3F42;
+}
+
+header{
+        text-align: center;
+}
+
+h1{
+        color: #d600ff;
+}
+
+main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+footer{
+        text-align: center;
+        color: #d600ff;
+}
+
+.card{
+        margin: 10px;
+        width: 350px;
+        flex: 0 0 350px;
+}
+
+.card h2{
+        position: relative;
+        padding: 5px;
+        width: 300px;
+        left: 25px;
+        transform: translateY(50%);
+        border: 1px solid white;
+        border-radius: 6px;
+        color: #d600ff;
+        background-color: #3C3F42;
+        /* need to flex position this such that it aligns with the top border of the div element. */
+}
+
+.card div{
+        padding: 50px 20px 20px 20px;
+        border: 1px dashed white;
+}
+
+.card .snippet {
+        margin: 2px 0 2px 0;
+        display: block;
+        padding: 20px;
+        border-radius: 6px;
+        background-color: #d600ff;
+}
